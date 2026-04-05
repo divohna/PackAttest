@@ -1,0 +1,44 @@
+{
+  "name": "packattest",
+  "version": "0.1.0",
+  "description": "Artifact review and attestation for package publishes",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Divohna/PackAttest.git"
+  },
+  "homepage": "https://github.com/Divohna/PackAttest#readme",
+  "bugs": {
+    "url": "https://github.com/Divohna/PackAttest/issues"
+  },
+  "type": "commonjs",
+  "files": [
+    "cli/",
+    "LICENSE",
+    "README.md"
+  ],
+  "bin": {
+    "pa": "./cli/index.js"
+  },
+  "scripts": {
+    "start": "node cli/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "security",
+    "publishing",
+    "npm",
+    "artifact",
+    "release",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.0.0",
+    "prompts": "^2.4.2",
+    "tar-stream": "^3.1.7"
+  }
+}

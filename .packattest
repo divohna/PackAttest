@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "package_name": "packattest",
+  "package_version": "0.1.0",
+  "artifact_hash": "sha256:f7509255ea06874eb3a5dd54880b0b6cb6ba8e8596bf72453ea4c02d2bece1d8",
+  "selected_files": [
+    "package/LICENSE",
+    "package/cli/lib/artifact.js",
+    "package/cli/lib/attestation.js",
+    "package/cli/lib/diff.js",
+    "package/cli/index.js",
+    "package/cli/lib/policy.js",
+    "package/cli/commands/publish.js",
+    "package/cli/lib/registry.js",
+    "package/cli/lib/repack.js",
+    "package/cli/commands/review.js",
+    "package/cli/lib/ui.js",
+    "package/cli/commands/verify.js",
+    "package/package.json",
+    "package/README.md"
+  ],
+  "reviewed_at": "2026-04-05T12:30:11.517Z",
+  "reviewer": "git:Divohna",
+  "source_commit": "3f615137b7d71ed36227ec75a09bf8376a81bd30",
+  "tool_version": "0.1.0"
+}
